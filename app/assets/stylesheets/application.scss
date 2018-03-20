@@ -1,5 +1,28 @@
 @import "bootstrap";
 
+main {
+  @extend .col-md-9, .ml-sm-auto, .col-lg-10, .pt-3, .px-4;
+}
+
 nav {
+  @extend .col-md-2, .d-none, .d-md-block, .bg-dark, .text-light;
   height: 1000px;
+
+  a {
+    @extend .text-light;
+  }
+
+  ul {
+    @extend .nav;
+  }
+}
+
+
+.jumbotron {
+  @extend .bg-light, .border;
+
+  p {
+    @extend .lead;
+  }
+
 }

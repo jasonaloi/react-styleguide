@@ -6,11 +6,11 @@ var Jumbotron = createReactClass({
 
   render: function() {
     return (
-      <div class="jumbotron bg-light border">
-        <h1 class="display-4">
+      <div class="jumbotron">
+        <h1>
           {this.props.title || 'Title Here'}
         </h1>
-        <p class="lead">
+        <p>
           {this.props.description || 'Some descriptive text here...'}
         </p>
       </div>
