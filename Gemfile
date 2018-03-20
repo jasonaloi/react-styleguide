@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'react-rails'
 gem 'bootstrap'
+gem 'haml-rails'
 
 
 group :development, :test do

@@ -1,0 +1,6 @@
+%nav.col-md-2.d-none.d-md-block.bg-dark.text-light.sidebar
+  .sidebar-sticky
+    %br
+    %h6.sidebar-heading COMPONENTS
+    %ul.nav.flex-column
+      = render partial: "nav_link", collection: @components, as: :item
